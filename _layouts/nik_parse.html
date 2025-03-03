@@ -2,50 +2,51 @@
 layout: default
 ---
 
-<div class="hero has-background-black-bis is-fullheight">
+
+<section class="hero is-fullheight is-dark">
   <div class="hero-body">
-      <div class="container">
-          <div class="columns is-centered">
-              <div class="column is-one-two">
-                      <div class="field">
-                        <div class="content">
-                          
-                                  
-
-                              <div class="card has-background-dark has-text-light">
-                                  <div class="card-content"><div class="content">
-
-                                  <div class="field">
-                                    <h5>NIK Parse</h5>
-                                  </div>
-                                  
-                                  <div class="field"> 
-                                      <input id="nik"
-                                      class="input is-dark"
-                                      type="text"
-                                      placeholder="Masukkan NIK"
-                                    />
-                                      <button id="proses" class="button">Submit</button>
-                                  </div>
-                                  
-                                  <div class="field">
-
-                                  
-                                  </div>
-                                  
-
-                              </div>
-                          </div>
-                          
-                      
-                  </div>
-            
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <!-- Main Card -->
+          <div class="card has-background-grey-darker has-text-light">
+            <header class="card-header has-background-link">
+              <p class="card-header-title has-text-white is-centered">
+                <span class="icon mr-2">
+                  <i class="fas fa-id-card"></i>
+                </span>
+                NIK Parse
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="field">
+                  <p class="control has-icons-left">
+                    <input id="nik" class="input is-rounded" type="text" placeholder="Masukkan NIK">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-fingerprint"></i>
+                    </span>
+                  </p>
+                </div>
+                
+                <div class="field">
+                  <button id="proses" class="button is-link is-fullwidth is-rounded has-text-weight-bold">
+                    <span class="icon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                    <span>Analisis NIK</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
+          
+          <!-- Results will appear here -->
+          <div id="hasil" class="mt-5"></div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
-                                 
-<div id="hasil"></div>
-
+</section>
 
 <script src="{{ site.files }}/assets/nikparse.js"></script>

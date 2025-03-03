@@ -4,12 +4,12 @@
 #### About
 NIK (indonesian identity number) parse . simple in jekyll
 
-Live Demo : https://rokhimin.github.io/jekyll-nik-parse
+Live Demo : https://rokhimin.github.io/nik-parse
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Rokhimin/jekyll-nik-parse/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Rokhimin/nik-parse/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 

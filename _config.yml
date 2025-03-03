@@ -1,9 +1,9 @@
 title: NIK parse | whdzera
 email: whdzera@gmail.com
-baseurl: "/jekyll-nik-parse" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" 
+url: "" 
 twitter_username: whdzera
-github_username:  rokhimin/jekyll-nik-parse
+github_username:  rokhimin/nik-parse
 
 permalink: /:title.rb
-files: "/jekyll-nik-parse"
+files: ""
