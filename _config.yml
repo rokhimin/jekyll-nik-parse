@@ -1,9 +1,9 @@
 title: NIK parse | whdzera
 email: whdzera@gmail.com
-baseurl: "" 
+baseurl: "/nik-parse" 
 url: "" 
 twitter_username: whdzera
 github_username:  rokhimin/nik-parse
 
 permalink: /:title.rb
-files: ""
+files: "/nik-parse"
