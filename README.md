@@ -2,10 +2,12 @@
 #ReadMe
 
 #### About
-NIK (indonesian identity number) parse . simple in jekyll
+NIK (indonesian identity number) parse | jekyll
 
-Live Demo : https://rokhimin.github.io/nik-parse
+##### Live Demo 
+https://rokhimin.github.io/nik-parse
 
+https://nik-parse-kappa.vercel.app/
 
 ## Contributing
 
